@@ -1,9 +1,0 @@
-
-while True:
-    # Converte a entrada para inteiro
-    senha = int(input("Digite a senha: "+"A senha tem 4 digitos: "))
-    if senha == 1212:
-        print("Acesso liberado, a senha está correta!")
-        break  # Sai do loop quando a senha estiver correta
-    else:
-        print("Senha incorreta, tente novamente")
